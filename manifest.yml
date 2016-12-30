@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Coursera IOT 1
+  host: Coursera-IOT-1
+  disk_quota: 1024M
+  services:
+  - Coursera IOT 1-cloudantNoSQLDB
+  - Coursera IOT 1-iotf-service
+  - availability-monitoring-auto
